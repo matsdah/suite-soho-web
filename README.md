@@ -31,7 +31,7 @@ Con eso, cada cambio que se sube a `main` se publica solo en uno o dos minutos. 
 
 ## Pendientes
 
-- Cuando haya dominio propio, cambiar `og:image` (y la `image` del bloque `application/ld+json`) por la URL completa, por ejemplo `https://suitesoho.com.ar/img/og-image.jpg`, y agregar `<link rel="canonical">` y `og:url`. Sin URL completa, WhatsApp y las redes pueden no mostrar la imagen al compartir el enlace.
+- La web está publicada en https://suite-soho-web.mandrioli.workers.dev. Cuando haya dominio propio, reemplazar esa dirección en `og:url`, `og:image`, `canonical` y en `image` y `url` del bloque `application/ld+json`.
 - Reemplazar las fotos por los originales en alta resolución (las actuales salen de las publicaciones, de unos 1150 px).
 - Reemplazar el logo por el archivo original (SVG o PNG sin fondo).
 - Las cifras de reseñas (9,9 con 101 comentarios en Booking, 5,0 con 16 reseñas en Airbnb, 117 estadías con reseña, 13 países) son del 20/11/2026 y conviene actualizarlas cada tanto.
